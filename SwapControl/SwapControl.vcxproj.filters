@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\NT">
+      <UniqueIdentifier>{cf2adb7a-699a-42f7-a984-aa2bc011e399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\tools">
+      <UniqueIdentifier>{12f797fd-b200-418a-a66f-4ca4685cf06f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="SwapControl.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DriverEntry.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ntstructs.h">
+      <Filter>Source\NT</Filter>
+    </ClInclude>
+    <ClInclude Include="ntapi.h">
+      <Filter>Source\NT</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ioctl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Source\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
