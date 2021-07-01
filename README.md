@@ -9,3 +9,5 @@ if (major_function.address < section.address ||
     {
       /*FOUND*/
     }
+
+Но как оказалось, существуют более безопасные методы перехвата RIVER_DISPATCH, позволяющие не модифицировать страницу .text
